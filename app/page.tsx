@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { Separator } from '@/components/ui/separator'
-import { Menu, Code, Zap, Shield, Rocket, Database, Users, Star, ArrowRight, Check, Github, Twitter, Mail } from 'lucide-react'
+import { Menu, Code, Zap, Shield, Rocket, Database, Users, Star, ArrowRight, Github, Twitter } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -313,7 +313,7 @@ function SocialProofSection() {
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                <p className="text-slate-600 mb-4">"{testimonial.content}"</p>
+                <p className="text-slate-600 mb-4">&quot;{testimonial.content}&quot;</p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-semibold">
                     {testimonial.avatar}

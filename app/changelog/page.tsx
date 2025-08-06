@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardHeader } from '@/components/ui/card'
 import { ArrowLeft, Plus, Zap, Bug, Shield } from 'lucide-react'
 
 export default function ChangelogPage() {
@@ -100,7 +100,7 @@ export default function ChangelogPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="space-y-8">
-          {releases.map((release, index) => (
+          {releases.map((release) => (
             <Card key={release.version} className="border-l-4 border-l-blue-600">
               <CardHeader>
                 <div className="flex items-center justify-between">

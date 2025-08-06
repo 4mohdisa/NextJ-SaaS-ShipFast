@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { ArrowLeft, Code, Database, Shield, Zap, Rocket, Users } from 'lucide-react'
+import { ArrowLeft, Code, Database, Shield, Zap } from 'lucide-react'
 
 export default function DocsPage() {
   return (
@@ -44,7 +44,7 @@ export default function DocsPage() {
                 </code>
               </div>
               <p className="text-slate-600">
-                That's it! Your SaaS boilerplate is now running at <code className="bg-gray-100 px-2 py-1 rounded">http://localhost:3000</code>
+                That&apos;s it! Your SaaS boilerplate is now running at <code className="bg-gray-100 px-2 py-1 rounded">http://localhost:3000</code>
               </p>
             </CardContent>
           </Card>
